@@ -1,5 +1,23 @@
-.boxes{
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
+.boxes {
+  background-color: rgb(145, 197, 221);
+  max-height: 100px;
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 40px black;
+  text-shadow: 2px 2px 7px black;
+  text-align: center;
+  overflow: scroll;
+  margin: 10px;
+}
+
+.box {
+  background-color: rgb(145, 197, 221);
+  max-height: 100px;
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 40px black;
+  text-shadow: 2px 2px 7px black;
+  text-align: center;
+  overflow: scroll;
+  margin: 10px;
 }
