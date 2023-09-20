@@ -5,12 +5,19 @@
     border: 2px solid black;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    
+    /* flex-wrap: wrap; */
 }
 
 .box{
-    width: 50px;
+    width: 100px;
     background-color: aquamarine;
     border: 1px solid purple;
+}
+
+#box4{
+    flex-grow: 1;
+}
+
+#box2{
+    flex-shrink: 2;
 }
