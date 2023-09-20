@@ -4,10 +4,11 @@
     height: 500px;
     background-color: beige;
     border: 2px solid black;
+    flex-direction: row;
 }
 
 .box{
     width: 100px;
     background-color: aquamarine;
-    border: 2px solid darkblue;
+    border: 1px solid purple;
 }
