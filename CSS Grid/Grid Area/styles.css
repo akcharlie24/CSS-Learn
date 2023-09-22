@@ -4,12 +4,12 @@
   background-color: aquamarine;
   grid-gap: 1rem;
   display: grid;
-  grid-template-rows: 10rem 1fr 10rem;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 8rem 1fr 5rem; /* 1fr means 1 fraction of the remaining space*/
+  grid-template-columns: 20rem 1fr;
   grid-template-areas:
-    "hd hd hd hd hd hd hd"                  /* 1st row*/ /* we can divide into as many parts irrespective of the column*/
-    "sec main main main main main main"  /* this is a little tricky coz why the section is not taking one by eighth part --> search on mdn*/
-    "ft ft ft ft ft ft ft";
+    "hd hd"
+    "sec main"
+    "ft ft";
 }
 
 .box {
